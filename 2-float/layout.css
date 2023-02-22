@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.bordered {
+  border: 1px solid blue;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  height: 600px;
+  width: 30%;
+}
+
+main {
+  float: right;
+  height: 600px;
+  width: 70%;
+}
+
+footer {
+  clear: both;
+}
